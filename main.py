@@ -6,7 +6,6 @@ def genData(data):
         # list of binary codes 
         # of given data 
         newd = []  
-          
         for i in data: 
             newd.append(format(ord(i), '08b')) 
         return newd 
